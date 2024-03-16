@@ -1,4 +1,6 @@
-Json Dev Template
+# Documentation
+
+## Structure for `festival_tracks.json`
 
 - tracks
   - track_identifier
@@ -39,7 +41,7 @@ Json Dev Template
         ]
       - stream_source: string
 
-# Explanations
+## Descriptions
 
 `tracks`
 array with every track's details
@@ -122,11 +124,15 @@ ogg audio file with the instrument stem
 `stems.streams[all].type`
 instrument for this stem
 
-required: `stems.streams[all].type = combined`
-all stems combined, full track for the preview and standalone track
+`stems.streams[all].type = 'combined'`
+all stems combined, full track for the preview and full song
+
+for FNLookup: this stream is required for the preview
 
 `stems.stream_source`
 source for obtaining these stems
 
-optional: `stream_credits_url`
+`stream_credits_url`
 url to the credits of sourcers for the m4s segments for the stems of the track.
+
+for FNLookup: this property is optional or can be skipped if can't be credited
