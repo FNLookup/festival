@@ -3739,7 +3739,279 @@
                     }
                 ]
             }
+        },
+        {
+            "id": "hysteria",
+            "title": "Hysteria",
+            "artist": "Muse",
+            "year": 2003,
+            "duration": 230,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Guitar"
+            },
+            "difficulties": {
+                "plastic_bass": 5,
+                "plastic_drums": 4,
+                "plastic_guitar": 4,
+                "vocals": 2,
+                "guitar": 5,
+                "drums": 4,
+                "bass": 5
+            },
+            "scale": "Minor",
+            "album_image": "https://cdn2.unrealengine.com/qp68njzglck03mlp-512x512-b82ddb349217.jpg",
+            "bpm": 93,
+            "key": "A",
+            "stems": {
+                "streams": [
+                    {
+                        "url": "https://cdn2.unrealengine.com/roo8stsoftdh01bi-aadfbc7b6374.dat",
+                        "type": "FortniteGame_midi"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "astronoutintheocean",
+            "title": "Astronaut In The Ocean",
+            "artist": "Masked Wolf",
+            "year": 2019,
+            "duration": 134,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Guitar"
+            },
+            "difficulties": {
+                "plastic_bass": 0,
+                "plastic_drums": 5,
+                "plastic_guitar": 0,
+                "vocals": 5,
+                "guitar": 0,
+                "drums": 3,
+                "bass": 0
+            },
+            "scale": "Minor",
+            "album_image": "https://cdn2.unrealengine.com/arndrvpmhv7dmrko-512x512-8bc3e401a35a.jpg",
+            "bpm": 150,
+            "key": "E",
+            "stems": {
+                "streams": [
+                    {
+                        "url": "https://cdn2.unrealengine.com/44qxvz8xnigs9xby-1d9214b9d48e.dat",
+                        "type": "FortniteGame_midi"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "callmemaybe",
+            "title": "Call Me Maybe",
+            "artist": "Carly Rae Jepsen",
+            "year": 2011,
+            "duration": 198,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Keyboard"
+            },
+            "difficulties": {
+                "plastic_bass": 0,
+                "plastic_drums": 2,
+                "plastic_guitar": 3,
+                "vocals": 3,
+                "guitar": 3,
+                "drums": 2,
+                "bass": 0
+            },
+            "scale": "Major",
+            "album_image": "https://cdn2.unrealengine.com/k965npoxrrlqlbhn-512x512-4bf856e7e5cd.png",
+            "bpm": 120,
+            "key": "G",
+            "stems": {
+                "streams": [
+                    {
+                        "url": "https://cdn2.unrealengine.com/alelq4pgp8t68kz3-5bc513583939.dat",
+                        "type": "FortniteGame_midi"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "carryonwaywardson",
+            "title": "Carry on Wayward Son",
+            "artist": "Kansas",
+            "year": 1976,
+            "duration": 325,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Guitar"
+            },
+            "difficulties": {
+                "plastic_bass": 4,
+                "plastic_drums": 2,
+                "plastic_guitar": 6,
+                "vocals": 2,
+                "guitar": 6,
+                "drums": 3,
+                "bass": 4
+            },
+            "scale": "Minor",
+            "album_image": "https://cdn2.unrealengine.com/oxjxl9yq5qefpu0l-512x512-17165a6f0ee8.png",
+            "bpm": 124,
+            "key": "A",
+            "stems": {
+                "streams": [
+                    {
+                        "url": "https://cdn2.unrealengine.com/n2mixa4snvej7irl-0b7ae2cef729.dat",
+                        "type": "FortniteGame_midi"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "dontfearthereaper",
+            "title": "(Don't Fear) The Reaper",
+            "artist": "Blue \u00d6yster Cult",
+            "year": 1976,
+            "duration": 322,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Guitar"
+            },
+            "difficulties": {
+                "plastic_bass": 2,
+                "plastic_drums": 5,
+                "plastic_guitar": 4,
+                "vocals": 2,
+                "guitar": 5,
+                "drums": 6,
+                "bass": 5
+            },
+            "scale": "Minor",
+            "album_image": "https://cdn2.unrealengine.com/ctzomncwaembo4i9-512x512-4f2be6de1f0e.png",
+            "bpm": 141,
+            "key": "A",
+            "stems": {
+                "streams": [
+                    {
+                        "url": "https://cdn2.unrealengine.com/w2ew41kecdgxucto-0a3c19befbf4.dat",
+                        "type": "FortniteGame_midi"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ithinkimokay",
+            "title": "I Think I'm OKAY",
+            "artist": "mgk, YUNGBLUD & Travis Barker",
+            "year": 2019,
+            "duration": 174,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Guitar"
+            },
+            "difficulties": {
+                "plastic_bass": 1,
+                "plastic_drums": 2,
+                "plastic_guitar": 2,
+                "vocals": 2,
+                "guitar": 2,
+                "drums": 3,
+                "bass": 1
+            },
+            "scale": "Major",
+            "album_image": "https://cdn2.unrealengine.com/deffmb7auirqxo3d-512x512-c13d99f843dd.jpg",
+            "bpm": 120,
+            "key": "G",
+            "stems": {
+                "streams": [
+                    {
+                        "url": "https://cdn2.unrealengine.com/8bwuq5nm9lskdstp-8be72fc10ff7.dat",
+                        "type": "FortniteGame_midi"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "likeag6",
+            "title": "Like A G6",
+            "artist": "Far East Movement ft. The Cataracs & DEV",
+            "year": 2010,
+            "duration": 221,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Keyboard"
+            },
+            "difficulties": {
+                "plastic_bass": 0,
+                "plastic_drums": 3,
+                "plastic_guitar": 1,
+                "vocals": 4,
+                "guitar": 1,
+                "drums": 4,
+                "bass": 0
+            },
+            "scale": "Minor",
+            "album_image": "https://cdn2.unrealengine.com/edtsymm8pnpm7qcc-512x512-2117885a7c2b.jpg",
+            "bpm": 125,
+            "key": "G",
+            "stems": {
+                "streams": [
+                    {
+                        "url": "https://cdn2.unrealengine.com/jptp5krnfavgshdz-7a5a5789b8b7.dat",
+                        "type": "FortniteGame_midi"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "yourlove9pm",
+            "title": "Your Love (9pm)",
+            "artist": "ATB, Topic, A7S",
+            "year": 2021,
+            "duration": 154,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Keyboard"
+            },
+            "difficulties": {
+                "plastic_bass": 1,
+                "plastic_drums": 1,
+                "plastic_guitar": 1,
+                "vocals": 2,
+                "guitar": 1,
+                "drums": 2,
+                "bass": 1
+            },
+            "scale": "Minor",
+            "album_image": "https://cdn2.unrealengine.com/3uzy0g1r8cp3ovde-512x512-982c1a0fba76.jpg",
+            "bpm": 126,
+            "key": "A",
+            "stems": {
+                "streams": [
+                    {
+                        "url": "https://cdn2.unrealengine.com/klzet5vpilvegiqr-df27c1fd22a0.dat",
+                        "type": "FortniteGame_midi"
+                    }
+                ]
+            }
         }
     ],
-    "lastModified": 1710476972.281
+    "lastModified": 1710863278.032
 }
