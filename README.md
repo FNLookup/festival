@@ -1,2 +1,4 @@
 # festival
-FNLookup's Fortnite Festival Integrations.
+FNLookup's Festival Hub Resources.
+
+[Documentation](https://github.com/FNLookup/festival/tree/main/docs)
