@@ -3,16 +3,25 @@
 ## Structure for `festival_tracks.json`
 
 - tracks
-  - track_identifier
+  - every item has the following structure
+    - lastModified: 12345678.90
+    - active: 12345678.90
+    - language: en-US
+    - id: song
     - title: Song
     - year: 2024
     - artist: FNLookup
+    - album: Song Album
+    - genres: []
     - scale: Major
+    - gameplay_tags: [s294_sparktrack_123456]
+    - item_id: something_sid_284969
+    - preview_start: 7382.1395
     - instrument_defaults
-      - vocals: keyboard
-      - guitar: lead
-      - drums: drums
-      - bass: bass
+      - vocals: Vocals
+      - guitar: Guitar
+      - drums: Drums
+      - bass: Bass
     - difficulties
       - plastic_bass: 0
       - plastic_drums: 0
@@ -27,27 +36,34 @@
     - preview_start: 50
     - genre: music
     - key: Eb
-    - stems:
-      - streams: array
-        [
-          {
-            url: location_ogg
-            type: drums_track
-          },
-          {
-            url: location_ogg
-            type: background_track
-          }
-        ]
-      - stream_source: string
+    - resources: []
+       - every item has the following structure
+          - url: resource url
+          - type: resource type
+    - isrc: US12345678
+    - rating: T
+    - event_id: 1a2b3c-4d5e
+    - join_code: 0000-1111-2222
 
 ## Descriptions
 
 `tracks`
 array with every track's details
 
-`track_identifier`
-short string with the song in lower case containing the song details
+`id`
+short string with the song in lower case used for identifying the song in lists
+
+`lastModified`
+unix timestamp with the lastmodified time on this track
+
+`active`
+unix timestamp with the active time on this track
+
+`language`
+track specified language
+
+`album`
+song album
 
 `title`
 song title
@@ -57,6 +73,18 @@ release year
 
 `artist`
 song artist
+
+`genres`
+array of asigned genders
+
+`gameplay_tags`
+array containing general item tags
+
+`preview_start`
+specifies in seconds when the 30s long preview takes place in the original song
+
+`item_id`
+placeholder ids or ids to link with the owned jam tracks in thw locker
 
 `scale`
 music scale: major, minor
@@ -112,27 +140,29 @@ bpm for this track
 `key`
 music key for the track
 
-`stems`
-object containing streaming oggs for streams of songs
+`resources`
+object containing resources that may be useful for devs
 
-`stems.streams`
-array with ogg tracks for the song
+`resources[].url`
+url or id for this resource
 
-`stems.streams[all].url`
-ogg audio file with the instrument stem
+`resources[].type`
+type of this resource
 
-`stems.streams[all].type`
-instrument for this stem
+currently there are only four resources those being:
+- lipsync .lad
+- midi .dat
+- qi.sid
+- qi.pid
 
-`stems.streams[all].type = 'combined'`
-all stems combined, full track for the preview and full song
+`isrc`
+the isrc code for the song
 
-for FNLookup: this stream is required for the preview
+`rating`
+isrb rating for this song (E,T)
 
-`stems.stream_source`
-source for obtaining these stems
+`event_id`
+some id used by epic
 
-`stream_credits_url`
-url to the credits of sourcers for the m4s segments for the stems of the track.
-
-for FNLookup: this property is optional or can be skipped if can't be credited
+`join_code`
+creative codes i guess.
