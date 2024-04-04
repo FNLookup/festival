@@ -7691,7 +7691,65 @@
                     "type": "PreviewStreamingID"
                 }
             ]
+        },
+        {
+            "lastModified": 1712082615.541,
+            "active": 1712274600.0,
+            "language": "en-US",
+            "id": "betrayedaardvark",
+            "title": "Eyes Closed",
+            "artist": "Imagine Dragons",
+            "album": "",
+            "genres": [],
+            "year": 2024,
+            "duration": 198,
+            "instrument_defaults": {
+                "vocals": "Vocals",
+                "bass": "Bass",
+                "drums": "Drum",
+                "guitar": "Keyboard"
+            },
+            "gameplay_tags": [
+                "Jam-LoopIsUnpitched-Beat"
+            ],
+            "join_code": "3614-0178-1540",
+            "item_id": "SparksSong:sid_placeholder_177",
+            "difficulties": {
+                "plastic_bass": 1,
+                "plastic_drums": 3,
+                "plastic_guitar": 2,
+                "vocals": 4,
+                "guitar": 2,
+                "drums": 3,
+                "bass": 2
+            },
+            "scale": "Minor",
+            "album_image": "https://cdn2.unrealengine.com/bsyewlvdpqnzhqsb-512x512-e66a396b55ad.jpg",
+            "bpm": 174,
+            "key": "Eb",
+            "event_id": "7665c1c4-0600-41fa-99ac-ce9ce01fc36a",
+            "isrc": "USUM72402448",
+            "rating": "E",
+            "preview_start": 37.5862,
+            "resources": [
+                {
+                    "url": "https://cdn2.unrealengine.com/gwzvzglbazisaudn-ac07ee3d9e31.dat",
+                    "type": "FortniteGame_midi"
+                },
+                {
+                    "url": "SparksSong:sid_placeholder_177",
+                    "type": "FortniteGame_lipsyncdata"
+                },
+                {
+                    "url": "61c66626-6613-482e-9f15-c1ae8ef9f6c6",
+                    "type": "SongStreamingID"
+                },
+                {
+                    "url": "cfcad06c-34b5-4269-a08f-c8189539f3a9",
+                    "type": "PreviewStreamingID"
+                }
+            ]
         }
     ],
-    "lastModified": 1712079037.294
+    "lastModified": 1712082615.541
 }
