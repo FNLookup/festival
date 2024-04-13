@@ -41,6 +41,8 @@ In the content returned by `https://cdn.qstv.on.epicgames.com/aa4f6195-5070-42cc
 - `https://fortnite-vod.akamaized.net/yZUGFgMbTQzURFyVgh/1706206034/`
 - `https://pilgrim.qstv.on.epicgames.com/yZUGFgMbTQzURFyVgh/1706206034/`
 
+(Note: the pilgrim.qstv.on.epicgames.com URL, although based entirely around festival, due to its codename being Pilgrim somewhere, isn't present in this Jam Track anymore. What I mean by this is just ignore it.)
+
 Our interest is in the first URL as it does not require Auth, the other one is only used by the game client and requires Auth.
 
 We can see `/1706206034/` is common across both.
