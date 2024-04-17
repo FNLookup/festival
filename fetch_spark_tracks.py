@@ -62,19 +62,19 @@ def transform_data(input_data, output_file):
         transformed_track['resources'] = [
             {
                 'url': track_info['mu'],
-                'type': 'FortniteGame_midi'
+                'type': 'Sparks_Encrypted_Midi'
             },
             {
-                'url': track_info.get('ti', ""),
-                'type': 'FortniteGame_lipsyncdata'
+                'url': track_info.get('ld', ""),
+                'type': 'Sparks_Lip_Sync'
             },
             {
                 'url': track_qi['sid'],
-                'type': 'SongStreamingID'
+                'type': 'Pilgrim_Streaming_ID_Song'
             },
             {
                 'url': track_qi['pid'],
-                'type': 'PreviewStreamingID'
+                'type': 'Pilgrim_Streaming_ID_Prev'
             }
         ]
 
@@ -97,4 +97,4 @@ if __name__ == "__main__":
             file.write('{"timestamp": ' + str(time.time()) + '}')
             print("Timestamp saved")
     else:
-        print("Failed to fetch data from the API. Status code:", response.status_code)
+        print("Failed to fetch data from Fortnite Content: Status code ", response.status_code)
