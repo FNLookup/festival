@@ -2,9 +2,12 @@
 **/*.py
 index.html
 mods/
-__pycache__/
+**/__pycache__/
+**/*.json
+**/*.blurl
+
 .vscode/
 downloaded/
-music/
+downloads/
 videoassets/
 videos/
